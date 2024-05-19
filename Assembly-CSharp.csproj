@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\_03StarMgr\SpiralGalaxy.cs" />
     <Compile Include="Assets\Scripts\_03StarMgr\Star.cs" />
     <Compile Include="Assets\Scripts\_02PlanetMgr\Planet.cs" />
+    <Compile Include="Assets\SpiralGalaxyGenerator.cs" />
     <Compile Include="Assets\Scripts\_03StarMgr\Galaxy.cs" />
     <Compile Include="Assets\Scripts\_03StarMgr\GalaxyMgr.cs" />
     <Compile Include="Assets\Scripts\_01GameMgr\GameMgr.cs" />

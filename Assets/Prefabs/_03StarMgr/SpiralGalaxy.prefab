@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 5114143511488366428}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3391827, y: -1.1507967, z: 0.10769497}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -48,14 +48,15 @@ MonoBehaviour:
   - {fileID: 7161875437930318631, guid: 0e6ca7540c6e49b4aa1107a2d0384138, type: 3}
   - {fileID: 2376058405137483824, guid: 18cbda7f9c2921a44b409f6c4261804b, type: 3}
   - {fileID: 6542122192490917804, guid: b90eb0af86843bf43acf1a7de02be6b2, type: 3}
-  starCount: 500
-  centralCluster: 0.75
+  starCount: 1000
+  centralCluster: 0.3
   numberOfArms: 3
   starScale: 0.1
   factorStarScale: 0.05
   starLayer: 8
-  galaxyRadius: 15
+  galaxyRadius: 12
   indexGalaxyType: 1
-  worldWidth: 100
-  worldHeight: 100
+  worldWidth: 10
+  worldHeight: 10
   DebugMode: 0
+  armThickness: 0.6
