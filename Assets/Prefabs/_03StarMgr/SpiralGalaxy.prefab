@@ -48,11 +48,14 @@ MonoBehaviour:
   - {fileID: 7161875437930318631, guid: 0e6ca7540c6e49b4aa1107a2d0384138, type: 3}
   - {fileID: 2376058405137483824, guid: 18cbda7f9c2921a44b409f6c4261804b, type: 3}
   - {fileID: 6542122192490917804, guid: b90eb0af86843bf43acf1a7de02be6b2, type: 3}
-  starCount: 100
+  starCount: 500
+  centralCluster: 0.75
+  numberOfArms: 3
   starScale: 0.1
   factorStarScale: 0.05
   starLayer: 8
-  galaxyRadius: 10
+  galaxyRadius: 15
   indexGalaxyType: 1
   worldWidth: 100
   worldHeight: 100
+  DebugMode: 0
