@@ -64,7 +64,11 @@
     <Analyzer Include="E:\Unity 2022.3.15f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\_03StarMgr\Star.cs" />
+    <Compile Include="Assets\Scripts\_02PlanetMgr\Planet.cs" />
+    <Compile Include="Assets\Scripts\_01GameMgr\GameMgr.cs" />
+    <Compile Include="Assets\Scripts\_03StarMgr\StarMgr.cs" />
+    <Compile Include="Assets\Scripts\_02PlanetMgr\PlanetMgr.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
