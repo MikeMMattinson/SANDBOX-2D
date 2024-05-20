@@ -97,3 +97,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e8827744e137f64d92dfbfaaec4b62b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spectralClassification:
+  - classification: O
+    color: {r: 0.6, g: 0.8, b: 1, a: 1}
+    distribution: 0.00003
+  - classification: B
+    color: {r: 0.7, g: 0.8, b: 1, a: 1}
+    distribution: 0.1
+  - classification: A
+    color: {r: 0.8, g: 0.9, b: 1, a: 1}
+    distribution: 0.6
+  - classification: F
+    color: {r: 1, g: 1, b: 0.9, a: 1}
+    distribution: 3
+  - classification: G
+    color: {r: 0.004405493, g: 0.16809292, b: 0.9339623, a: 1}
+    distribution: 7.6
+  - classification: K
+    color: {r: 1, g: 0.8, b: 0.6, a: 1}
+    distribution: 12.1
+  - classification: M
+    color: {r: 1, g: 0.6, b: 0.6, a: 1}
+    distribution: 76.45

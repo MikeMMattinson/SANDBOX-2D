@@ -68,7 +68,9 @@
     <Compile Include="Assets\Scripts\_03StarMgr\Star.cs" />
     <Compile Include="Assets\Scripts\_02PlanetMgr\Planet.cs" />
     <Compile Include="Assets\SpiralGalaxyGenerator.cs" />
+    <Compile Include="Assets\Scripts\_03StarMgr\SpectralClassification.cs" />
     <Compile Include="Assets\Scripts\_03StarMgr\Galaxy.cs" />
+    <Compile Include="Assets\Scripts\_03StarMgr\StarSpriteAssigner.cs" />
     <Compile Include="Assets\Scripts\_03StarMgr\GalaxyMgr.cs" />
     <Compile Include="Assets\Scripts\_01GameMgr\GameMgr.cs" />
     <Compile Include="Assets\Scripts\_02PlanetMgr\PlanetMgr.cs" />
