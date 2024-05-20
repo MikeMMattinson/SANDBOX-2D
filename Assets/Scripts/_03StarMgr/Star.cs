@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Star : MonoBehaviour
 {
+    // public list of random star sprites
+    public List<Sprite> starSprites = new List<Sprite>();   
+
     // Updated list to include spectral classification and color
     public List<SpectralClassification> spectralClassification = new List<SpectralClassification>()
     {
@@ -25,11 +28,18 @@ public class Star : MonoBehaviour
         GetComponent<Renderer>().material.color = selectedClassification.color;
 
         // Assign sprite based on spectral classification
-        StarSpriteAssigner spriteAssigner = GetComponent<StarSpriteAssigner>();
-        if (spriteAssigner != null)
+        //StarSpriteAssigner spriteAssigner = GetComponent<StarSpriteAssigner>();
+        //if (spriteAssigner != null)
+        //{
+        //    spriteAssigner.AssignSpriteBasedOnClassification(selectedClassification.classification);
+        //}   
+
+        // Assign random sprite
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>(); 
+        if (spriteRenderer != null)
         {
-            spriteAssigner.AssignSpriteBasedOnClassification(selectedClassification.classification);
-        }   
+            spriteRenderer.sprite = starSprites[Random.Range(0, starSprites.Count)];
+        }
     }
 
     void CalculateCumulativeDistribution()

@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starPrefab:
   - {fileID: 7161875437930318631, guid: 0e6ca7540c6e49b4aa1107a2d0384138, type: 3}
-  starCount: 8000
+  starCount: 300
   centralCluster: 0.1
   numberOfArms: 5
   starScale: 0.08
